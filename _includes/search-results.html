@@ -4,7 +4,6 @@
 <div id="search-result-wrapper" class="d-flex justify-content-center unloaded">
   <div class="col-12 col-sm-11 post-content">
     <div id="search-hints">
-<<<<<<< HEAD
       <h4 class="text-muted mb-4">{{ site.data.label.panel.trending_tags | default: 'Trending Tags' }}</h4>
 
       {% include trending-tags.html %}
@@ -14,9 +13,6 @@
         <a class="post-tag" href="{{ url | relative_url }}">{{ tag | replace: '-', ' ' }}</a>
       {% endfor %}
 
-=======
-      {% include trending-tags.html %}
->>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
     </div>
     <div id="search-results" class="d-flex flex-wrap justify-content-center text-muted mt-3"></div>
   </div>

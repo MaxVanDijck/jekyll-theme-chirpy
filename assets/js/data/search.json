@@ -1,15 +1,10 @@
 ---
 layout: compress
-<<<<<<< HEAD
-=======
-swcache: true
->>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
 ---
 
 [
   {% for post in site.posts %}
   {
-<<<<<<< HEAD
     "title": "{{ post.title | escape }}",
     "url": "{{ site.baseurl }}{{ post.url }}",
     "categories": "{{ post.categories | join: ', '}}",
@@ -17,15 +12,6 @@ swcache: true
     "date": "{{ post.date }}",
     {% include no-linenos.html content=post.content %}
     "snippet": "{{ content | strip_html | strip_newlines | remove_chars | escape | truncate: 300 | replace: '\', '\\\\' }}"
-=======
-    "title": {{ post.title | jsonify }},
-    "url": {{ post.url | relative_url | jsonify }},
-    "categories": {{ post.categories | join: ', ' | jsonify }},
-    "tags": {{ post.tags | join: ', ' | jsonify }},
-    "date": "{{ post.date }}",
-    {% include no-linenos.html content=post.content %}
-    "snippet": {{ content | strip_html | strip_newlines | jsonify }}
->>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

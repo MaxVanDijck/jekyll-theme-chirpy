@@ -41,10 +41,6 @@
     &:not(:first-child) {
       position: relative;
       left: 4px;
-<<<<<<< HEAD
-=======
-
->>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
       &::after {
         left: 67px;
       }
@@ -102,10 +98,6 @@
   .date {
     white-space: nowrap;
     display: inline-block;
-<<<<<<< HEAD
-=======
-
->>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
     &.month {
       width: 1.4rem;
       text-align: center;
@@ -128,10 +120,6 @@
         z-index: 1;
       }
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
     &.day {
       font-size: 85%;
       font-family: 'Lato', sans-serif;
@@ -139,11 +127,7 @@
       margin-right: -2px;
       width: 1.2rem;
       position: relative;
-<<<<<<< HEAD
       left: -.15rem;
-=======
-      left: -0.15rem;
->>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
     }
   } // #archives .date
 
@@ -152,10 +136,6 @@
 @media all and (max-width: 576px) {
   #archives {
     margin-top: -1rem;
-<<<<<<< HEAD
-=======
-
->>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
     ul {
       letter-spacing: 0;
     }

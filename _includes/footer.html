@@ -1,22 +1,36 @@
+<<<<<<< HEAD
 <!--
   The Footer
 -->
 
 <footer class="d-flex w-100 justify-content-center">
   <div class="d-flex justify-content-between align-items-center">
+=======
+<!-- The Footer -->
+
+<footer class="row pl-3 pr-3">
+  <div class="col-12 d-flex justify-content-between align-items-center text-muted pl-0 pr-0">
+>>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
     <div class="footer-left">
       <p class="mb-0">
         © {{ 'now' | date: "%Y" }}
         <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
+<<<<<<< HEAD
         {% if site.data.rights.brief %}
         <span data-toggle="tooltip" data-placement="top"
           title="{{ site.data.rights.verbose }}">{{ site.data.rights.brief }}</span>
+=======
+        {% if site.data.locales[lang].copyright.brief %}
+        <span data-toggle="tooltip" data-placement="top"
+          title="{{ site.data.locales[lang].copyright.verbose }}">{{ site.data.locales[lang].copyright.brief }}</span>
+>>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
         {% endif %}
       </p>
     </div>
 
     <div class="footer-right">
       <p class="mb-0">
+<<<<<<< HEAD
         Powered by
         <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
         with
@@ -27,4 +41,24 @@
     </div>
 
   </div> <!-- div.d-flex -->
+=======
+        {% capture _platform %}
+          <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
+        {% endcapture %}
+
+        {% capture _theme %}
+          <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a>
+        {% endcapture %}
+
+        {{ site.data.locales[lang].meta
+          | default: 'Powered by :PLATFORM with :THEME theme.'
+          | replace: ':PLATFORM', _platform | replace: ':THEME', _theme
+        }}
+
+      </p>
+    </div>
+
+  </div>
+
+>>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
 </footer>

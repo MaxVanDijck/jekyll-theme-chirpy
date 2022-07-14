@@ -13,7 +13,11 @@ platforms:
   -
     type: Telegram
     icon: "fab fa-telegram"
+<<<<<<< HEAD
     link: "https://telegram.me/share?text=TITLE&url=URL"
+=======
+    link: "https://t.me/share/url?url=URL&text=TITLE"
+>>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
 
   # Uncomment below if you need to.
   # -

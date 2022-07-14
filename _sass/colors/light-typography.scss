@@ -3,38 +3,22 @@
  */
 
 @mixin light-scheme {
-<<<<<<< HEAD
   /* Common */
-=======
-  /* Framework color */
->>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
   --body-bg: #fafafa;
   --mask-bg: #c1c3c5;
   --main-wrapper-bg: white;
   --main-border-color: #f3f3f3;
-<<<<<<< HEAD
   --btn-border-color: #e9ecef;
   --text-color: #34343c;
-=======
-
-  /* Common color */
-  --text-color: #34343c;
-  --text-muted-color: gray;
->>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
   --heading-color: black;
   --blockquote-border-color: #eee;
   --blockquote-text-color: #9a9a9a;
   --link-color: #2a408e;
   --link-underline-color: #dee2e6;
-<<<<<<< HEAD
   --text-muted-color: gray;
   --tb-odd-bg: #fbfcfd;
   --tb-border-color: #eaeaea;
   --button-bg: #fff;
-=======
-  --button-bg: #fff;
-  --btn-border-color: #e9ecef;
->>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
   --btn-backtotop-color: #686868;
   --btn-backtotop-border-color: #f1f1f1;
   --btn-box-shadow: #eaeaea;
@@ -42,7 +26,6 @@
   --checkbox-checked-color: #07a8f7;
 
   /* Sidebar */
-<<<<<<< HEAD
   --sidebar-bg: radial-gradient(
     circle,
     rgba(42, 30, 107, 1) 0%,
@@ -53,19 +36,6 @@
   --topbar-wrapper-bg: white;
   --topbar-text-color: rgb(78, 78, 78);
   --search-wrapper-bg: #f5f5f5;
-=======
-  --sidebar-bg: #eeeeee;
-  --sidebar-muted-color: #a2a19f;
-  --sidebar-active-color: #424242;
-  --nav-cursor-color: #757575;
-  --sidebar-btn-bg: white;
-
-  /* Topbar */
-  --topbar-text-color: rgb(78, 78, 78);
-  --topbar-wrapper-bg: white;
-  --search-wrapper-bg: rgb(245 245 245 / 50%);
-  --search-wrapper-border-color: rgb(245 245 245);
->>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
   --search-tag-bg: #f8f9fa;
   --search-icon-color: #c2c6cc;
   --input-focus-border-color: var(--btn-border-color);
@@ -73,18 +43,12 @@
   /* Home page */
   --post-list-text-color: dimgray;
   --btn-patinator-text-color: #555555;
-<<<<<<< HEAD
   --btn-paginator-hover-color: #e9ecef;
   --btn-active-bg: #2a408e;
   --btn-active-border-color: #007bff;
   --btn-text-color: #f8f8f8;
   --btn-paginator-border-color: #f1f1f1;
   --btn-paginator-shadow: #4b92d2;
-=======
-  --btn-paginator-hover-color: var(--sidebar-bg);
-  --btn-paginator-border-color: var(--sidebar-bg);
-  --btn-text-color: #676666;
->>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
   --pin-bg: #f5f5f5;
   --pin-color: #999fa4;
 
@@ -94,55 +58,20 @@
   --card-box-shadow: rgba(234, 234, 234, 0.7686274509803922);
   --label-color: #616161;
   --relate-post-date: rgba(30, 55, 70, 0.4);
-<<<<<<< HEAD
-=======
-  --footnote-target-bg: lightcyan;
->>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
   --tag-bg: rgba(0, 0, 0, 0.075);
   --tag-border: #dee2e6;
   --tag-shadow: var(--btn-border-color);
   --tag-hover: rgb(222, 226, 230);
-<<<<<<< HEAD
   --categories-hover-bg: var(--btn-border-color);
   --dash-color: silver;
-=======
-  --tb-odd-bg: #fbfcfd;
-  --tb-border-color: #eaeaea;
-  --dash-color: silver;
-  --preview-img-bg: radial-gradient(circle, rgb(255 255 255) 0%, rgb(249 249 249) 100%);
-  --kbd-wrap-color: #bdbdbd;
-  --kbd-text-color: var(--text-color);
-  --kbd-bg-color: white;
-  --prompt-text-color: rgb(46 46 46 / 77%);
-  --prompt-tip-bg: rgb(123 247 144 / 20%);
-  --prompt-tip-icon-color: #03b303;
-  --prompt-info-bg: #e1f5fe;
-  --prompt-info-icon-color: #0070cb;
-  --prompt-warning-bg: rgb(255 243 205);
-  --prompt-warning-icon-color: #ef9c03;
-  --prompt-danger-bg: rgb(248 215 218 / 56%);
-  --prompt-danger-icon-color: #df3c30;
-
-  [class^=prompt-] {
-    --link-underline-color: rgb(219 216 216);
-  }
-
-  /* Categories */
-  --categories-hover-bg: var(--btn-border-color);
-  --categories-icon-hover-color: darkslategray;
->>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
 
   /* Archive */
   --timeline-color: rgba(0, 0, 0, 0.075);
   --timeline-node-bg: #c2c6cc;
   --timeline-year-dot-color: #ffffff;
 
-<<<<<<< HEAD
   /* Footer */
   --footer-bg-color: #ffffff;
   --footnote-target-bg: lightcyan;
   --footer-link: #424242;
 } // light-scheme
-=======
-} /* light-scheme */
->>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580

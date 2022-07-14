@@ -3,12 +3,18 @@
 */
 
 $(function() {
+<<<<<<< HEAD
 
   const btnSbTrigger = $("#sidebar-trigger");
   const btnSearchTrigger = $("#search-trigger");
   const btnCancel = $("#search-cancel");
   const btnClear = $("#search-cleaner");
 
+=======
+  const btnSbTrigger = $("#sidebar-trigger");
+  const btnSearchTrigger = $("#search-trigger");
+  const btnCancel = $("#search-cancel");
+>>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
   const main = $("#main");
   const topbarTitle = $("#topbar-title");
   const searchWrapper = $("#search-wrapper");
@@ -33,8 +39,12 @@ $(function() {
     };
   }());
 
+<<<<<<< HEAD
 
   /*--- Actions in small screens (Sidebar unloaded) ---*/
+=======
+  /*--- Actions in mobile screens (Sidebar hidden) ---*/
+>>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
 
   const mobileSearchBar = (function () {
     return {
@@ -75,7 +85,10 @@ $(function() {
             hints.removeClass("unloaded");
           }
           resultWrapper.addClass("unloaded");
+<<<<<<< HEAD
           btnClear.removeClass("visible");
+=======
+>>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
           main.removeClass("unloaded");
 
           // now the release method must be called after $(#main) display
@@ -92,7 +105,10 @@ $(function() {
 
   }());
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
   function isMobileView() {
     return btnCancel.hasClass("loaded");
   }
@@ -116,6 +132,7 @@ $(function() {
     searchWrapper.removeClass("input-focus");
   });
 
+<<<<<<< HEAD
   input.on("keyup", function(e) {
     if (e.keyCode === 8 && input.val() === "") {
       if (!isMobileView()) {
@@ -148,6 +165,22 @@ $(function() {
     }
     input.focus();
     btnClear.removeClass("visible");
+=======
+  input.on("input", () => {
+    if (input.val() === "") {
+      if (isMobileView()) {
+        hints.removeClass("unloaded");
+      } else {
+        resultSwitch.off();
+      }
+
+    } else {
+      resultSwitch.on();
+      if (isMobileView()) {
+        hints.addClass("unloaded");
+      }
+    }
+>>>>>>> ad137fa2945b1870b9c1dd5e9212a5f4af7c3580
   });
 
 });
